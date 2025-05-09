@@ -29,4 +29,28 @@ remote: Resolving deltas: 100% (2/2), done.
 To https://github.com/essaalshaibani/testrrr.git
  * [new branch]      master -> master
 branch 'master' set up to track 'origin/master'.
-PS C:\wamp64\www\crud-php-simple-master> 
+PS C:\wamp64\www\crud-php-simple-master> git add .
+PS C:\wamp64\www\crud-php-simple-master> git commit -m "command git"
+[master 2be2234] command git
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 git_commands
+PS C:\wamp64\www\crud-php-simple-master> git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 269 bytes | 269.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/essaalshaibani/testrrr.git
+   b7b0b0a..2be2234  master -> master
+branch 'master' set up to track 'origin/master'.
+PS C:\wamp64\www\crud-php-simple-master> git pull origin master
+From https://github.com/essaalshaibani/testrrr
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+PS C:\wamp64\www\crud-php-simple-master> git add .
+PS C:\wamp64\www\crud-php-simple-master> git commit -m "gittttt"
+[master 7d4f5b5] gittttt
+ 2 files changed, 36 insertions(+), 2 deletions(-)
+PS C:\wamp64\www\crud-php-simple-master> git push -u origin master

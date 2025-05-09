@@ -2,7 +2,9 @@
 $databaseHost = 'localhost';
 $databaseName = 'test';
 $databaseUsername = 'root';
-$databasePassword = 'root';
+$databasePassword = '';
 
-// Open a new connection to the MySQL server
+// Open a new connection to the MySQL server 
+password: YES
 $mysqli = mysqli_connect($databaseHost, $databaseUsername, $databasePassword, $databaseName); 
+?>

@@ -1,0 +1,32 @@
+PS C:\wamp64\www\crud-php-simple-master> git init
+Initialized empty Git repository in C:/wamp64/www/crud-php-simple-master/.git/
+PS C:\wamp64\www\crud-php-simple-master> git config --global user.name "essaalshaibani" 
+PS C:\wamp64\www\crud-php-simple-master> git config --global user.email "xxbc1c@gmail.com"
+PS C:\wamp64\www\crud-php-simple-master> git remote add origin https://github.com/essaalshaibani/testrrr.git
+PS C:\wamp64\www\crud-php-simple-master> git add .
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'edit.php', LF will be replaced by CRLF the next time Git touches it
+PS C:\wamp64\www\crud-php-simple-master> git commit -m "test1"
+[master (root-commit) b7b0b0a] test1
+ 9 files changed, 242 insertions(+)
+ create mode 100644 README.md
+ create mode 100644 add.php
+ create mode 100644 addAction.php
+ create mode 100644 database.sql
+ create mode 100644 dbConnection.php
+ create mode 100644 delete.php
+ create mode 100644 edit.php
+ create mode 100644 editAction.php
+ create mode 100644 index.php
+PS C:\wamp64\www\crud-php-simple-master> git push -u origin master 
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (11/11), 3.27 KiB | 669.00 KiB/s, done.
+Total 11 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/essaalshaibani/testrrr.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+PS C:\wamp64\www\crud-php-simple-master> 
